@@ -48,6 +48,7 @@ func PrintHuman(comparisons []compare.Comparison) {
 	if failed > 0 {
 		fmt.Printf(", %d failure(s)", failed)
 	}
+	fmt.Println()
 	fmt.Println(separator)
 	fmt.Println()
 }
